@@ -3,7 +3,7 @@ header("Access-Control-Allow-Origin: *");
 header('Access-Control-Allow-Headers: Content-Type');
 header('Content-Type: application/json');
 
-phpinfo();
+// phpinfo();
 
 ini_set("display_errors",1);
 include 'config.php';
