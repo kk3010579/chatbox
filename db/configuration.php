@@ -5,10 +5,14 @@
   //       private static $strDatabase = 'heroku_8ef6be2faed7191';
   //       private static $strUser = 'b7ee178da1109c';
 		// private static $strPass = '536a92db';
-		private static $strHost = 'localhost';
-        private static $strDatabase = 'db_webrtc';
+		// private static $strHost = 'localhost';
+  //       private static $strDatabase = 'db_webrtc';
+  //       private static $strUser = 'root';
+		// private static $strPass = '';
+		private static $strHost = 'ec2-52-23-225-83.compute-1.amazonaws.com';
+        private static $strDatabase = 'chatboxdb';
         private static $strUser = 'root';
-		private static $strPass = '';
+		private static $strPass = 'Apple!23';
 
 		public function __construct($strHost, $strDatabase, $strUser, $strPass) {
 			database::$strHost = $strHost;
