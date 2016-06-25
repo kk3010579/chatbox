@@ -9,7 +9,7 @@
   //       private static $strDatabase = 'db_webrtc';
   //       private static $strUser = 'root';
 		// private static $strPass = '';
-		private static $strHost = 'ec2-52-23-225-83.compute-1.amazonaws.com';
+		private static $strHost = 'localhost';
         private static $strDatabase = 'chatboxdb';
         private static $strUser = 'root';
 		private static $strPass = 'Apple!23';
